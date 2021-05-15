@@ -1,0 +1,554 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .description {
+      font-size: 20px;
+      margin-bottom: 13px;
+      width: 250px;
+      height: 26px;
+  }
+
+  body {
+    font-family: Rubik;
+    padding: 0;
+    margin:0 auto;
+    width: 1250px;
+
+    
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    font-family: "Rubik";
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+  .img-news-elements {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 18px;
+    margin-right: 30px;
+    list-style-type: none;
+
+    
+  }
+ .part2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 19px;
+    width: 517px;
+    height: 55px;
+    
+    
+}
+
+
+.img-news {
+    margin-right: 13px;
+    margin-bottom: 0;
+}
+
+.space {
+    margin:0 0 7px 0;
+}
+
+.time {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #7688A4;
+    width: 117px;
+    height: 19px;
+}
+.popular-text {
+    width: 347px;
+    height: 62px;
+    margin: 10px 0;
+}
+.popular-news {
+    margin-top: 2px;
+    border-radius: 2%;
+    background-color: #F6F6F9;
+    width: 375px;
+    height: 502px;
+}
+
+.line {
+    margin-top: 14px;
+    border: 1px solid #E4E4E4;
+    background-color: #E4E4E4;
+    width: 346px;
+    height: 4px;
+}
+.popular1 {
+    padding-left:20px;
+}
+.popular2 {
+    margin-top:2rem ;
+}
+
+
+.more-button{
+    margin:0 auto;
+    width: 211px;
+    height: auto;
+}
+
+
+.button-container{
+    width: 211px;
+    height: 42px;
+    background-color: #295093;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 5px;
+
+}
+
+.button {
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 32px;
+}
+
+
+.covid-container{
+    background-color: #F6F6F9;
+    width: 1250px;
+    padding:0;
+    
+}
+
+.covid-data{
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1250px;
+    height: 133px;
+    list-style-type: none;
+}
+
+.covid19 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    width: 278px;
+    height: 50px;
+
+}
+.cov19 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 161px;
+    height: 52px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+
+.cov-elem::before{
+    content: "";
+    margin-right: 30px;
+    border: 1px solid #F4CCD1;
+    width: 1px;
+    height: 49px;
+}
+
+.cov-elems::before{
+    content: "";
+    margin-right: 30px;
+    border: 1px solid #EB5569;
+    width: 1px;
+    height: 72px;
+}
+.corona-logos {
+    margin-right: 25px;
+}
+.corona-description {
+    text-align: start;
+}
+
+.last-news {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1250px;
+}
+
+
+
+.last-news-imgs {
+    width: 386px;
+    height: 190px;
+    border-radius: 5%;
+    margin-bottom: 11px;
+}
+
+.last-news-text {
+    width: 380px;
+    height: 42px;
+    margin-bottom: 110px;
+    
+}
+
+.notifications {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    height: 91px;
+    margin:0 auto 32px auto;
+    background-color: rgba(239, 186, 84, 0.18);
+    border-radius: 5%;
+
+}
+
+.notif-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 82px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.notif-text::before {
+    content: url("./images/bell-icon@2x.png");;
+    padding-right: 18px;
+}
+
+.notif-button {
+    text-align: center;
+    padding: 8px 15px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    width: 264px;
+    height: 42px;
+    background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+    border-radius: 5px;
+}
+
+header {
+    width: 1250px;
+    padding:43px 0;
+    height: 332px;
+    background-color: #F6F6F9;
+}
+
+.namangan-logo{
+    background-color:white;
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.nav-part1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+}   
+
+.nav-part2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.currency-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    width: 258px;
+    height: 21px;
+    margin-left: 0 123px;
+    color: #535353;
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    background-image: url("./images/Search-logo.svg");
+    background-repeat: no-repeat;
+    background-position:center center;
+    width: 38px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border:0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* why russian is not aligned with logo at the center ? */
+.russian {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 64.76px;
+    height: 40px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 5px;
+}
+
+.russian::before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: "";
+    background-image: url("./images/rus-logo.svg");
+    background-position:center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    /* why russian is not aligned with logo at the center ? */
+
+}
+
+.teleg-logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    width: 146px;
+    height: 40px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.teleg-logo::before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: "";
+    background-image: url(./images/telegram-logo.svg) ;
+    background-position:center center;
+    background-repeat: no-repeat;
+}   
+
+.topic-nav {
+    padding: 21px 24px;
+    align-items: center;
+    margin-top: 40px;
+    width: 1200px;
+    height: 68px;   
+    background-color: #FFFFFF;
+    color: #515151;
+
+}
+
+.topic-nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 auto;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+.topic-nav-list li:hover {
+    transition: ease 2s;
+    color: rgba(81, 81, 81, 0.5);
+}
+
+.nrg-billboard {
+    margin: 18px 0 23px 0;
+    display: inline-block;
+    content: "";
+    background-image: url("./images/nrg-banner.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1250px;
+    height: 99px;
+
+}
+/* for some reason anything under this section is not working  */
+.application {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1200px;
+    height: 214px;
+    background-color: #F6F6F9;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.app-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 526px;
+ 
+}
+.app-stores {
+    margin-left: 50px;
+
+}
+.smartphone::before {   
+    content: url("./images/mobile.png");
+}
+
+
+.footer {
+    background: #295093;
+    max-width: 1450px;
+    height: 245px;
+    padding: 0 25px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 3px solid #133c82;
+    margin-bottom: 12px;
+}
+
+  
+  .top-footer-logo {
+    padding: 10px;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: #133c82;
+  }
+  
+  .footer-top-text {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
+
+  .telegram-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 132px;
+    height: 38px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #295093;
+    margin-left: 17px;
+ 
+  }
+
+  .telegram-icon::before {
+      display: block;
+      padding: 6px;
+      content: url(./images/icon-telegram-blue.svg );
+  }
+
+  a {
+    text-decoration: none;
+  }
+.footer-bottom-container {
+    display: flex;
+ 
+
+  }
+  
+  .footer-bottom-about {
+    width: 365px;
+    height: 121px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
+
+  .site-footer-list-container {
+      margin-left: 110px;
+      list-style-type: none; 
+ 
+  }
+
+.footer-lists {
+     font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 28px;
+      color: #FFFFFF;
+}
+
+.footer-links {
+    width: 285px;
+    padding: 0;
+    margin: 0;
+    margin-right: 40px;
+    list-style: none;
+    color: white;
+    line-height: 17px;
+  }
+
+  .footer-heading {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 500;
+  }
